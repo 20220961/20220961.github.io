@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    @import "css.css";
+    .vyear{
+        display:inline-block;
+        border: solid 0px red;
+        position : relative;
+    }
+    .vvyear{
+        background-color:yellow;
+        display:none;
+        width: 100px;
+        padding: 10px;
+        line-height:30px;
+        font-size: 15px;
+        position:absolute;
+    }
+    .vyear:hover .vvyear{
+        display: block;
+        background-color: rgb(237, 182, 182);
+        z-index:1;
+    }
+    .back{
+        z-index: 0;
+    }
+    </style>
+</head>
+<body>
+    <div class="mainbox">
+    <header>
+        <div class="maintitle">
+        <a href="index.html" id="id">타이거즈 Fan WIKI</a>
+        </div>
+        <div class="year">
+        <div class="vyear"><ul>우승년도 | |</ul>
+        <div class="vvyear">
+        <li>1983s</li>
+        <li>1986s</li>
+        <li>1987s</li>
+        <li>1988s</li>
+        <li>1989s</li>
+        <li>1991s</li>
+        <li>1993s</li>
+        <li>1996s</li>
+        <li>1997s</li>
+        <li>2009s</li>
+        <li>2017s</li>
+        </div>
+        </div>
+        <div class="vyear"><ul>플레이오프 진출년도 | |</ul>
+        <div class="vvyear">
+        <li>1987s</li>
+        <li>1989s</li>
+        <li>1990s</li>
+        <li>1992s</li>
+        <li>2002s</li>
+        <li>2003s</li>
+        </div>
+        </div>
+        <div class="vyear"><ul>준플레이오프 진출년도 | |</ul>
+        <div class="vvyear">
+        <li>1994s</li>
+        <li>2004s</li>
+        <li>2006s</li>
+        <li>2011s</li>
+        </div>
+        </div>
+        <div class="vyear"><ul>와일드카드 결정전 진출년도</ul>
+        <div class="vvyear">
+        <li>2016s</li>
+        <li>2018s</li>
+        </div>
+        </div>
+        </div>
+    </header>
+    <section>
+        <div class="back">
+        <div class="logo">
+        <a href="logo.html"><img src="./image/logo.PNG" width="100%" height="100%"></a>
+        </div>
+        <div class="winlogo">
+        <a href="winlogo.html"><img src="./image/winlogo.PNG" width="100%" height="100%"></a>
+        </div></div>
+        <div class="personalranking">
+        <h1>타이거즈 역대 타이틀</h1><br>
+        <a href="https://namu.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EA%B4%80%EB%A0%A8%20%EA%B8%B0%EB%A1%9D#s-2.1" target="_blank">팀성적</a><br>
+        <a href="https://namu.wiki/w/KIA%20%ED%83%80%EC%9D%B4%EA%B1%B0%EC%A6%88/%EA%B4%80%EB%A0%A8%20%EA%B8%B0%EB%A1%9D#s-2.2" target="_black">개인타이틀</a><br>
+        </div>
+        <div class="topmenu">
+        <p><a href="top5player.html">서버장이 뽑은 타이거즈 최애 선수 TOP5</a></p>
+        <p><a href="top3scene.html">서버장이 뽑은 타이거즈 명장면 TOP3</a></p>
+        </div>
+    </section>
+    <footer class="clear">
+        <div class="hyperlink1"><a href="https://tigers.co.kr/" target="_blank">기아타이거즈 홈페이지</a></div>
+        <div class="hyperlink2"><a href="https://sports.news.naver.com/kbaseball/index" target="_blank">오늘의 경기 시청</a></div>
+        <div class="hyperlink3"><a href="allstar.html">타이거즈 올스타 팀 편성</a></div>
+    </footer>
+    </div>
+</body>
+</html>

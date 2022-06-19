@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    li{
+        list-style-type: none;
+    }
+    .dropdown{
+        display: inline-block;
+        border: solid 0px red;
+        position : relative;
+    }
+    .dropdownContents{
+        background-color:yellow;
+        display:none;
+        width: 100px;
+        padding: 10px;
+        line-height:30px;
+        position:absolute;
+    }
+    .dropdown:hover .dropdownContents{
+        display: block;
+        background-color: aqua;
+    }
+</style>
+<body>
+    <div class="dropdown">
+        <ul>내가 좋아하는 과일은
+            <div class="dropdownContents">
+            <li>포도</li>
+            <li>복숭아</li>
+            <li>수박</li>
+            </div>
+        </ul>
+    </div>
+    <div class="dropdown">
+        <ul>내가 좋아하는 꽃은
+            <div class="dropdownContents">
+            <li>안개꽃</li>
+            <li>백합</li>
+            <li>마가렛</li>
+            </div>
+        </ul>
+    </div>
+</body>
+</html>
