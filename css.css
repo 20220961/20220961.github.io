@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'DeogonPrincess';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/DeogonPrincess.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'JoongnajocheM-KSCpc-EUC-H';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/JoongnajocheM-KSCpc-EUC-H.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GongGothicLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CWDangamAsac-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Happiness-Sans-Title';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Unilab';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205-2@1.0/Unilab.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.mainbox{
+    border : 1px solid red;
+    width : 1300px;
+    height : 1200px;
+    position : relative;
+    left : 300px;
+}
+a{
+    text-decoration: none;
+}
+#id{
+    font-family : 'DeogonPrincess';
+    font-size : 35px;
+    text-align : center;
+    line-height : 2.4;
+    text-shadow : 0 0 4px red;
+    position : absolute;
+    left : 300px;
+}
+.maintitle{
+    border : 1px solid red;
+    width : 800px;
+    height : 75px;
+    position : absolute;
+    left : 225px;
+    top : 25px;
+}
+.year{
+    border : 1px solid red;
+    width : 1075px;
+    height : 75px;
+    position : absolute;
+    left : 100px;
+    top : 150px;
+    text-align : center;
+    font-family : 'SDSamliphopangche_Outline';
+    font-size : 25px;
+    line-height : 3;
+}
+.logo{
+    border : 1px solid red;
+    width : 500px;
+    height : 450px;
+    position : absolute;
+    left : 100px;
+    top : 300px;
+    font-family : 'JoongnajocheM-KSCpc-EUC-H';
+    font-size : 25px;
+}
+.winlogo{
+    border : 1px solid red;
+    width : 500px;
+    height : 450px;
+    position : absolute;
+    left : 675px;
+    top : 300px;
+    font-family : 'GongGothicLight';
+    font-size : 20px;
+}
+.personalranking{
+    border : 1px solid red;
+    width : 650px;
+    height : 200px;
+    position : absolute;
+    left : 100px;
+    top : 850px;
+    font-family : 'CWDangamAsac-Bold';
+    font-size : 30px;
+}
+.topmenu{
+    border : 1px solid red;
+    width : 350px;
+    height : 200px;
+    position : absolute;
+    left : 825px;
+    top : 850px;
+    font-family : 'Happiness-Sans-Title';
+    font-size : 35px;
+}
+.clear{
+    border : 1px solid red;
+    width : 1300px;
+    height : 50px;
+    position : fixed;
+    bottom : 0px;
+    font-family : 'Unilab';
+    text-align : center;
+    font-size : 35px;
+    line-height : 1.5;
+}
+.hyperlink1{
+    border : 1px solid red;
+    width : 250px;
+    float : left;
+    margin-left: 150px;
+}
+.hyperlink2{
+    border : 1px solid red;
+    width : 200px;
+    float : left;
+    margin-left: 150px;
+}
+.hyperlink3{
+    border : 1px solid red;
+    width : 300px;
+    float : left;
+    margin-left: 150px;
+}
+body{
+    background : rgb(255, 71, 71);
+    background : -webkit-linear-gradient(left top, rgb(255, 71, 71), white);
+    background : -moz-linear-gradient(right bottom, rgb(255, 71, 71), white);
+    background : -o-linear-gradient(right bottom, rgb(255, 71, 71), white);
+}
